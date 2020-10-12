@@ -1,5 +1,60 @@
 /* -------------------------------- 
 
+Primary style
+
+-------------------------------- */
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Lato", sans-serif;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+a {
+  color: #356B62;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  position: relative;
+}
+header h1 {
+  text-align: center;
+  padding: 2em 5%;
+  font-size: 2rem;
+}
+@media only screen and (min-width: 768px) {
+  header h1 {
+    font-size: 3rem;
+    padding: 3em 5% 1em;
+  }
+}
+@media only screen and (min-width: 1170px) {
+  header h1 {
+    font-weight: 300;
+    padding: 3em 5% 0;
+  }
+}
+
+/* -------------------------------- 
+
 Main Components 
 
 -------------------------------- */
